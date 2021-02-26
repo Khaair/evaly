@@ -19,7 +19,7 @@
 
 .category_header-contaner{
     display: grid;
-    grid-template-columns: 0.2fr 1.8fr 0.8fr;
+    grid-template-columns: 0.6fr 1.4fr 0.8fr;
     text-align: center;
     background-color:#1A202C
     
@@ -27,7 +27,7 @@
 
 .contact-header-left{
     display: flex;
-    text-decoration: center;
+    
 
 }
 .contact-header-right{
@@ -50,4 +50,35 @@
 }
 .main-header-left{
     text-align: center;
+}
+.category_header-left{
+    background-color: #C9151B;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
+.categories{
+    list-style: none;
+    display:flex;
+}
+.main-header-right-categories {
+    list-style: none;
+    display:flex;
+}
+
+.main-header-right-categories li a{
+    margin: 10px;
+    color:black;
+}
+
+.categories li{
+    font-size: 18px;
+    margin: 10px;
+
+}
+.categories li a{
+   
+    color:#FFFFFF;
 }
