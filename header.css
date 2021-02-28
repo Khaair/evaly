@@ -1,3 +1,6 @@
+body{
+    background-color:#F7F8FA;
+}
 .headerimg{
     width: 100%;
     height: 40px;
@@ -166,4 +169,43 @@ grid-template-areas: "Second-slider-one Second-slider-two";
 .second-slider-img{
     width: 100%;
     height: 100px;
+}
+
+.shop-by-brand{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.sbic{
+    margin:2px;
+   
+    width: 180px;
+    height: 200px;
+    border:2px solid black;
+    justify-content: center;
+    text-align: center;
+    
+    background-color:#FFFFFF;
+    
+
+    
+
+}
+
+.sbi{
+    width: 120px;
+    height: 120px;
+}
+.sec-container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+
+}
+.sec-search{
+    text-align: end;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 14px;
 }
